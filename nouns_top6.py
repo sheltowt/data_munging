@@ -1,6 +1,6 @@
 import pandas as pd
 
-new = pd.read_csv('/Users/williamshelton/Downloads/train3_11_1.csv')
+new = pd.read_csv('/home/play/Example/Kaggle/Adzuna/PostMung/Data/valid3_11_3.csv')
 count = 0
 new['EngineerNouns'] = "blank"
 new['AccountingNouns'] = "blank"
@@ -50,5 +50,5 @@ for x in new['Category']:
 		new['AllElse'][count] = newstring2
 	count +=1
 
-new.to_csv('/Users/williamshelton/Downloads/train3_11_2.csv')
+new.to_csv('/home/play/Example/Kaggle/Adzuna/PostMung/Data/valid3_11_4.csv')
 	
